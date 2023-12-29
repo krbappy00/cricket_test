@@ -49,6 +49,7 @@ const CountryList = ({ countries }: { countries: Country }) => {
             src={country.flag}
             alt={country.title}
             width={100}
+            
             height={100}
             className={`cursor-pointer shadow-sm ${
               selectedCountrys.includes(country)

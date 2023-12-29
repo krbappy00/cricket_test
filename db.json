@@ -31,31 +31,217 @@
       "flag": "https://www.worldometers.info/img/flags/as-flag.gif"
     }
   ],
-  "tosss": [
+  "tosss": [],
+  "plays": [
     {
-      "team1": {
-        "id": 1,
-        "title": "Bangladesh",
-        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      "teams": {
+        "team1": {
+          "id": 5,
+          "title": "England",
+          "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+        },
+        "team2": {
+          "id": 1,
+          "title": "Bangladesh",
+          "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+        },
+        "id": 1
       },
-      "team2": {
-        "id": 4,
-        "title": "New Zealand",
-        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
+      "wonToss": {
+        "id": 5,
+        "title": "England",
+        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
       },
       "id": 1
     },
     {
-      "team1": {
+      "teams": {
+        "team1": {
+          "id": 5,
+          "title": "England",
+          "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+        },
+        "team2": {
+          "id": 1,
+          "title": "Bangladesh",
+          "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+        },
+        "id": 1
+      },
+      "wonToss": {
+        "id": 5,
+        "title": "England",
+        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+      },
+      "id": 2
+    },
+    {
+      "teams": {
+        "team1": {
+          "id": 1,
+          "title": "Bangladesh",
+          "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+        },
+        "team2": {
+          "id": 4,
+          "title": "New Zealand",
+          "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
+        },
+        "id": 1
+      },
+      "wonToss": {
         "id": 1,
         "title": "Bangladesh",
         "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
       },
+      "id": 3
+    }
+  ],
+  "matches": [
+    {
+      "team1": {
+        "id": 5,
+        "title": "England",
+        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+      },
       "team2": {
+        "id": 6,
+        "title": "Australia",
+        "flag": "https://www.worldometers.info/img/flags/as-flag.gif"
+      },
+      "wonToss": {
+        "id": 5,
+        "title": "England",
+        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 1
+        },
+        {
+          "bowls": 0.2,
+          "run": 1
+        },
+        {
+          "bowls": 0.3,
+          "run": 4
+        },
+        {
+          "bowls": 0.4,
+          "run": 2
+        },
+        {
+          "bowls": 0.5,
+          "run": 6
+        },
+        {
+          "bowls": "1.0",
+          "run": 2
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 6
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 3
+        }
+      ],
+      "totalRunTeam1": 19,
+      "totalRunTeam2": 16,
+      "wonMatch": "England",
+      "id": 1
+    },
+    {
+      "team1": {
         "id": 3,
         "title": "Pakistan",
         "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
       },
+      "team2": {
+        "id": 2,
+        "title": "India",
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
+      },
+      "wonToss": {
+        "id": 2,
+        "title": "India",
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 3
+        },
+        {
+          "bowls": 0.2,
+          "run": 2
+        },
+        {
+          "bowls": 0.3,
+          "run": 3
+        },
+        {
+          "bowls": 0.4,
+          "run": 3
+        },
+        {
+          "bowls": 0.5,
+          "run": 6
+        },
+        {
+          "bowls": "1.0",
+          "run": 4
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 1
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 6
+        }
+      ],
+      "totalRunTeam1": 21,
+      "totalRunTeam2": 12,
+      "wonMatch": "Pakistan",
       "id": 2
     },
     {
@@ -65,23 +251,143 @@
         "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
       },
       "team2": {
-        "id": 3,
-        "title": "Pakistan",
-        "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
+        "id": 6,
+        "title": "Australia",
+        "flag": "https://www.worldometers.info/img/flags/as-flag.gif"
       },
+      "wonToss": {
+        "id": 6,
+        "title": "Australia",
+        "flag": "https://www.worldometers.info/img/flags/as-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 6
+        },
+        {
+          "bowls": 0.2,
+          "run": 2
+        },
+        {
+          "bowls": 0.3,
+          "run": 2
+        },
+        {
+          "bowls": 0.4,
+          "run": 3
+        },
+        {
+          "bowls": 0.5,
+          "run": 6
+        },
+        {
+          "bowls": "1.0",
+          "run": 3
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 4
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 2
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 6
+        }
+      ],
+      "totalRunTeam1": 22,
+      "totalRunTeam2": 16,
+      "wonMatch": "India",
       "id": 3
     },
     {
       "team1": {
-        "id": 5,
-        "title": "England",
-        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
       },
       "team2": {
-        "id": 2,
-        "title": "India",
-        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
+        "id": 3,
+        "title": "Pakistan",
+        "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
       },
+      "wonToss": {
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 6
+        },
+        {
+          "bowls": 0.2,
+          "run": 3
+        },
+        {
+          "bowls": 0.3,
+          "run": 1
+        },
+        {
+          "bowls": 0.4,
+          "run": 1
+        },
+        {
+          "bowls": 0.5,
+          "run": 3
+        },
+        {
+          "bowls": "1.0",
+          "run": 2
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 1
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 6
+        }
+      ],
+      "totalRunTeam1": 20,
+      "totalRunTeam2": 16,
+      "wonMatch": "Bangladesh",
       "id": 4
     },
     {
@@ -91,36 +397,216 @@
         "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
       },
       "team2": {
-        "id": 4,
-        "title": "New Zealand",
-        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
-      },
-      "id": 5
-    },
-    {
-      "team1": {
-        "id": 1,
-        "title": "Bangladesh",
-        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
-      },
-      "team2": {
-        "id": 4,
-        "title": "New Zealand",
-        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
-      },
-      "id": 6
-    },
-    {
-      "team1": {
-        "id": 2,
-        "title": "India",
-        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
-      },
-      "team2": {
         "id": 3,
         "title": "Pakistan",
         "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
       },
+      "wonToss": {
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 4
+        },
+        {
+          "bowls": 0.2,
+          "run": 6
+        },
+        {
+          "bowls": 0.3,
+          "run": 4
+        },
+        {
+          "bowls": 0.4,
+          "run": 6
+        },
+        {
+          "bowls": 0.5,
+          "run": 1
+        },
+        {
+          "bowls": "1.0",
+          "run": 2
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 3
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 1
+        }
+      ],
+      "totalRunTeam1": 17,
+      "totalRunTeam2": 23,
+      "wonMatch": "Pakistan",
+      "id": 5
+    },
+    {
+      "team1": {
+        "id": 3,
+        "title": "Pakistan",
+        "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
+      },
+      "team2": {
+        "id": 4,
+        "title": "New Zealand",
+        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
+      },
+      "wonToss": {
+        "id": 4,
+        "title": "New Zealand",
+        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 4
+        },
+        {
+          "bowls": 0.2,
+          "run": 6
+        },
+        {
+          "bowls": 0.3,
+          "run": 6
+        },
+        {
+          "bowls": 0.4,
+          "run": 2
+        },
+        {
+          "bowls": 0.5,
+          "run": 3
+        },
+        {
+          "bowls": "1.0",
+          "run": 4
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 4
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 4
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 1
+        }
+      ],
+      "totalRunTeam1": 25,
+      "totalRunTeam2": 18,
+      "wonMatch": "Pakistan",
+      "id": 6
+    },
+    {
+      "team1": {
+        "id": 5,
+        "title": "England",
+        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+      },
+      "team2": {
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      },
+      "wonToss": {
+        "id": 5,
+        "title": "England",
+        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 4
+        },
+        {
+          "bowls": 0.2,
+          "run": 3
+        },
+        {
+          "bowls": 0.3,
+          "run": 4
+        },
+        {
+          "bowls": 0.4,
+          "run": 6
+        },
+        {
+          "bowls": 0.5,
+          "run": 6
+        },
+        {
+          "bowls": "1.0",
+          "run": 1
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 4
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 4
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 1
+        }
+      ],
+      "totalRunTeam1": 22,
+      "totalRunTeam2": 24,
+      "wonMatch": "Bangladesh",
       "id": 7
     },
     {
@@ -130,10 +616,70 @@
         "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
       },
       "team2": {
-        "id": 5,
-        "title": "England",
-        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+        "id": 2,
+        "title": "India",
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
       },
+      "wonToss": {
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 4
+        },
+        {
+          "bowls": 0.2,
+          "run": 1
+        },
+        {
+          "bowls": 0.3,
+          "run": 6
+        },
+        {
+          "bowls": 0.4,
+          "run": 4
+        },
+        {
+          "bowls": 0.5,
+          "run": 4
+        },
+        {
+          "bowls": "1.0",
+          "run": 2
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 4
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 6
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 2
+        }
+      ],
+      "totalRunTeam1": 18,
+      "totalRunTeam2": 21,
+      "wonMatch": "India",
       "id": 8
     },
     {
@@ -147,23 +693,359 @@
         "title": "Pakistan",
         "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
       },
+      "wonToss": {
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 2
+        },
+        {
+          "bowls": 0.2,
+          "run": 6
+        },
+        {
+          "bowls": 0.3,
+          "run": 3
+        },
+        {
+          "bowls": 0.4,
+          "run": 2
+        },
+        {
+          "bowls": 0.5,
+          "run": 6
+        },
+        {
+          "bowls": "1.0",
+          "run": 2
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 2
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 2
+        }
+      ],
+      "totalRunTeam1": 20,
+      "totalRunTeam2": 21,
+      "wonMatch": "Pakistan",
       "id": 9
     },
     {
       "team1": {
-        "id": 3,
-        "title": "Pakistan",
-        "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
       },
       "team2": {
         "id": 4,
         "title": "New Zealand",
         "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
       },
+      "wonToss": {
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 1
+        },
+        {
+          "bowls": 0.2,
+          "run": 4
+        },
+        {
+          "bowls": 0.3,
+          "run": 2
+        },
+        {
+          "bowls": 0.4,
+          "run": 6
+        },
+        {
+          "bowls": 0.5,
+          "run": 2
+        },
+        {
+          "bowls": "1.0",
+          "run": 1
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 6
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 6
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 4
+        }
+      ],
+      "totalRunTeam1": 22,
+      "totalRunTeam2": 16,
+      "wonMatch": "Bangladesh",
       "id": 10
+    },
+    {
+      "team1": {
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      },
+      "team2": {
+        "id": 2,
+        "title": "India",
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
+      },
+      "wonToss": {
+        "id": 1,
+        "title": "Bangladesh",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 1
+        },
+        {
+          "bowls": 0.2,
+          "run": 3
+        },
+        {
+          "bowls": 0.3,
+          "run": 3
+        },
+        {
+          "bowls": 0.4,
+          "run": 1
+        },
+        {
+          "bowls": 0.5,
+          "run": 6
+        },
+        {
+          "bowls": "1.0",
+          "run": 3
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 2
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 4
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 6
+        }
+      ],
+      "totalRunTeam1": 17,
+      "totalRunTeam2": 17,
+      "wonMatch": "India",
+      "id": 11
+    },
+    {
+      "team1": {
+        "id": 4,
+        "title": "New Zealand",
+        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
+      },
+      "team2": {
+        "id": 5,
+        "title": "England",
+        "flag": "https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg"
+      },
+      "wonToss": {
+        "id": 4,
+        "title": "New Zealand",
+        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 1
+        },
+        {
+          "bowls": 0.2,
+          "run": 2
+        },
+        {
+          "bowls": 0.3,
+          "run": 4
+        },
+        {
+          "bowls": 0.4,
+          "run": 4
+        },
+        {
+          "bowls": 0.5,
+          "run": 6
+        },
+        {
+          "bowls": "1.0",
+          "run": 2
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 1
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 3
+        }
+      ],
+      "totalRunTeam1": 14,
+      "totalRunTeam2": 19,
+      "wonMatch": "England",
+      "id": 12
+    },
+    {
+      "team1": {
+        "id": 2,
+        "title": "India",
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
+      },
+      "team2": {
+        "id": 3,
+        "title": "Pakistan",
+        "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
+      },
+      "wonToss": {
+        "id": 2,
+        "title": "India",
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
+      },
+      "bowl": [
+        {
+          "bowls": 0.1,
+          "run": 3
+        },
+        {
+          "bowls": 0.2,
+          "run": 2
+        },
+        {
+          "bowls": 0.3,
+          "run": 1
+        },
+        {
+          "bowls": 0.4,
+          "run": 6
+        },
+        {
+          "bowls": 0.5,
+          "run": 2
+        },
+        {
+          "bowls": "1.0",
+          "run": 3
+        }
+      ],
+      "bowlSecondInnings": [
+        {
+          "secondBowls": 0.1,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.2,
+          "run": 3
+        },
+        {
+          "secondBowls": 0.3,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.4,
+          "run": 1
+        },
+        {
+          "secondBowls": 0.5,
+          "run": 2
+        },
+        {
+          "secondBowls": "1.0",
+          "run": 6
+        }
+      ],
+      "totalRunTeam1": 16,
+      "totalRunTeam2": 17,
+      "wonMatch": "Pakistan",
+      "id": 13
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
